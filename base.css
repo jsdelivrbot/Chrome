@@ -142,7 +142,7 @@ a:visited {
 
 body.dark-theme .mv-tile,
 body.dark-theme .mv-empty-tile {
-  background: rgb(255, 0, 0);
+  background: rgba(0,0,0,.58);
 }
 
 .mv-tile {
