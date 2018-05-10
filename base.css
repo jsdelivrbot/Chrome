@@ -133,11 +133,11 @@ a:visited {
 }
 
 .mv-tile {
-  background: rgb(250,250,250);
+  background: rgba(0,0,0,.78);
 }
 
 .mv-empty-tile {
-  background: rgb(245,245,245);
+  background: rgba(0,0,0,.58);
 }
 
 body.dark-theme .mv-tile,
@@ -229,27 +229,11 @@ html[dir=rtl] .mv-title[style*='direction: rtl'] {
 }
 
 .mv-thumb.failed-img {
-  background-color: rgb(245,245,245);
+  background: transparent;
 }
 
 body.dark-theme .mv-thumb.failed-img {
-  background-color: #555;
-}
-
-/* We use ::after without content to provide an aditional element on top of the
- * thumbnail. */
-.mv-thumb.failed-img::after {
-  border: 8px solid rgb(215,215,215);
-  border-radius: 50%;
-  content: '';
-  display: block;
-  height: 0;
-  margin: 39px 66px;
-  width: 0;
-}
-
-body.dark-theme .mv-thumb.failed-img::after {
-  border-color: #333;
+  background: transparent;
 }
 
 .mv-x {
